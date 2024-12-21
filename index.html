@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Будинок Кави</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div class="logo-text">
+            <span>Будинок</span>
+            <span>Кави</span>
+          </div>
+        </a>
+        <div class="navigation">
+          <a href="#">Головна</a>
+          <a href="#about">Про нас</a>
+          <a href="#menu">Меню</a>
+          <a href="#customers">Відгуки</a>
+          <a href="#booking">Бронювання столику</a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </nav>
+
+      <section class="landing">
+        <div class="banner">
+          <h3 class="main-heading">Вітаємо</h3>
+          <h1>Неперевершений смак і затишна атмосфера</h1>
+          <p>
+            Скуштуйте каву, яка дарує тепло і натхнення. 
+            Ми створюємо затишок для вас!
+          </p>
+          <button type="button" class="banner-btn banner-btn-1">
+            Замовити
+          </button>
+          <button type="button" class="banner-btn banner-btn-2" id="menuButton">
+            Наше меню
+          </button>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="photo-filter"></div>
+            <div class="swiper-slide"><img src="images/image1.jpg" /></div>
+            <div class="swiper-slide"><img src="images/image2.jpg" /></div>
+            <div class="swiper-slide"><img src="images/image3.jpg" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="landing-contact">
+          <div class="details">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>+380 (63) 211 99 44</span>
+            </div>
+          </div>
+          <div class="details">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span>Князів Острозьких, 2</span>
+              <span>02000, Київ, Україна</span>
+            </div>
+          </div>
+          <div class="details">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <span>Відкрито щоденно</span>
+              <span>7:00 - 22:00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h1>Легко замовити</h1>
+          <p>
+            Замовляйте каву в кілька кліків без зайвого клопоту.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-truck"></i>
+          <h1>Швидка доставка</h1>
+          <p>
+            Отримайте свою каву максимально швидко! Ми цінуємо ваш час й завжди доставляємо вчасно.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-mug-hot"></i>
+          <h1>Якісна кава</h1>
+          <p>
+            Насолоджуйтесь смаком найкращої кави, приготовленої з турботою та використанням відбірних зерен арабіки.
+          </p>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="menu-left">
+          <h3 class="main-heading">Знайдіть</h3>
+          <h1>Свою Каву</h1>
+          <p>
+            Досліджуйте наш різноманітний асортимент. 
+            Від класичного еспресо до вишуканого латте — тут знайдеться щось для кожного смаку. 
+            Відчуйте магію кожного ковтка!
+          </p>
+          <button type="button" class="menu-btn">Переглянути меню</button>
+        </div>
+        <div class="menu-right">
+          <div class="menu-right-images">
+            <div class="menu-img-wrapper">
+              <img src="images/image4.jpg" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image5.jpg" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image6.jpg" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image7.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="data">
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="5">0</span>
+          <span class="info">Філіалів</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="48">0</span>
+          <span class="info">Нагород</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="999">0</span>
+          <span class="info">Щасливих клієнтів</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="30">0</span>
+          <span class="info">Видів кави</span>
+        </div>
+      </section>
+
+    
+      <section class="customers" id="customers">
+        <div class="customers-banner">
+          <h3 class="main-heading">Відгуки</h3>
+          <h1>Наших Клієнтів</h1>
+          <p>
+            Ваші відгуки надихають нас ставати кращими. Ми завжди цінуємо вашу підтримку та довіру.
+          </p>
+        </div>
+        <div class="clients">
+          <div class="client">
+            <p>
+                Дуже задоволений! Послуга була на найвищому рівні. Дякую за професіоналізм й турботу!
+            </p>
+            <div>
+              <img src="images/client1.jpg" />
+              <span>Іван Білий</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+                Ваша команда перевершила всі мої очікування. Обов’язково звертатимусь ще!
+            </p>
+            <div>
+              <img src="images/client2.jpg" />
+              <span>Ілля Пелешок</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+                Надзвичайно якісний сервіс. Вражений увагою до деталей та швидкістю роботи.
+            </p>
+            <div>
+              <img src="images/client3.jpg" />
+              <span>Марія Коваленко</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+                Дуже вдячна за відмінну роботу. Ви найкращі!
+            </p>
+            <div>
+              <img src="images/client4.jpg" />
+              <span>Андрій Шевченко</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+                Все було просто чудово! Враження лише позитивні. Дякую за вашу роботу.
+            </p>
+            <div>
+              <img src="images/client5.jpg" />
+              <span>Софія Ткачук</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking" id="booking">
+        <div class="booking-left"></div>
+        <div class="booking-right">
+          <form>
+            <h1>Бронювання столику</h1>
+            <div class="input-group">
+              <input type="text" placeholder="Ім'я" id="first_name"/>
+              <input type="text" placeholder="Прізвище" id="last_name"/>
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Номер телефону" id="phone"/>
+              <input type="text" placeholder="Час" id="time"/>
+            </div>
+            <div class="input-group">
+              <button type="button" class="contact-btn" id="book_button">Забронювати</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
